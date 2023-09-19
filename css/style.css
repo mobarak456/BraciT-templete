@@ -1,0 +1,146 @@
+a{
+    text-decoration: none;
+}
+
+.navbar-brand{
+    scroll-behavior: smooth;
+}
+.arry-btn{
+    position: fixed;
+    bottom: 30px;
+    right: 28px;
+    z-index: 10;
+}
+/* .scroll{
+    transition: .5s;
+} */
+.arry-btn img{
+   width: 60px;
+   height: 60px;
+}
+
+.nav_bar ul li a{
+    font-size: 22px;
+    padding: 10px;
+   
+}
+.nav_bar ul li a:hover{
+    font-size: 22px;
+    padding: 10px;
+    transition: .9s;
+    text-decoration: underline 2px solid red;
+}
+.disrciption_section{
+    height: 320px;;
+    background-color: #092C58;
+}
+
+/* .product_section img:hover{
+  opacity: .4;
+  transition: .7s;
+
+} */
+.exertise_section img{
+    width: 100px;
+    float: left;
+}
+.exertise_section p{
+    padding-left: 10px;
+    font-size: 25px;
+}
+.product_section .inner{
+    overflow: hidden;
+}
+.product_section .inner img{
+    transition: all 1.7s ease;
+}
+.product_section .inner:hover img{
+    transform: scale(1.3);
+}
+.product_section h6{
+    font-size: 45px;
+}
+.count_box h6{
+    font-size: 60px;
+}
+.count_box p{
+    font-size: 25px;
+}
+.clients h6{
+    font-size: 45px;
+}
+.product_section a{
+    color: black;
+    font-size: 20px;
+    text-decoration: none
+ 
+}
+.product_section h5{
+    font-size: 25px;
+    padding-bottom: 15px;
+}
+.comment_section{
+    height: 420px;;
+    background-color: #092C58;
+}
+.comment_section h6{
+    font-size: 65px;
+    font-weight: 100;
+}
+.comment_section p{
+    font-size: 25px;
+}
+.owl_carousel_section{
+    background-color: #092C58;
+}
+/* footer section */
+.footer-col .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color:gray;
+    margin:0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #1e1b1b;
+    transition: all 0.5s ease;
+  }
+  .footer-col .social-links a:hover{
+    color: #e0e4ec;
+    background-color: #36343418;
+  }
+  /* counter */
+  .counter
+{
+    text-align: center;
+}
+.counter p
+{
+    font-size: 60px;
+    font-weight: 100;
+}
+
+.counter-count
+{
+    font-size: 50px;
+    font-weight: bold;
+    position: relative;
+    color: #000000;
+    text-align: center;
+    display: inline-block;
+}
+button.owl-prev {
+    position: absolute;
+    background-color: #e2e0d7;
+    top: -53px;
+    right: 0;
+    font-size: 20px;
+    border-radius: 50%;
+    height: 41px;
+    width: 38px;
+    color: #fff;
+}
+.owl_carousel_section{
+    position: relative;
+}
